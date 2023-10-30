@@ -11,7 +11,7 @@ package de.exxcellent.challenge.data;
  * @param oneHourTotalPrecipitation The maximum precipitation recorded in one hour
  * @param windDirectionDegrees The prevailing wind direction in degrees
  * @param averageWindSpeed The average wind speed
- * @param windDirectionDegreesPeakDegrees The wind direction of the strongest wind in degrees
+ * @param windDirectionDegreesPeak The wind direction of the strongest wind in degrees
  * @param maxWindSpeed The maximum wind speed recorded
  * @param skyCover The total sky cover
  * @param maxHumidity The maximum relative humidity
@@ -21,6 +21,6 @@ package de.exxcellent.challenge.data;
  */
 public record WeatherData(int day, int maxTemperature, int minTemperature, int averageTemperature,
                           float averageDewPoint, int oneHourTotalPrecipitation, int windDirectionDegrees,
-                          float averageWindSpeed, int windDirectionDegreesPeakDegrees, int maxWindSpeed, float skyCover,
+                          float averageWindSpeed, int windDirectionDegreesPeak, int maxWindSpeed, float skyCover,
                           int maxHumidity, int minHumidity, float averageSeaLevelPressure) {
 }

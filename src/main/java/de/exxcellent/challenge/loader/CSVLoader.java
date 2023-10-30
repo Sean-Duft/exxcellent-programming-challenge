@@ -24,7 +24,7 @@ public class CSVLoader {
     }
 
     /**
-     * Loads a utf-8 encoded CSV file from a local file given by its filepath
+     * Loads a CSV file from a local file given by its filepath and encoding
      *
      * @param filePath The path to the csv file
      * @param encoding The encoding used in the csv file
