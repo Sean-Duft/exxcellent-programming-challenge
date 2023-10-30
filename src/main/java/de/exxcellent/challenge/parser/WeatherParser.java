@@ -1,10 +1,6 @@
 package de.exxcellent.challenge.parser;
 
-import de.exxcellent.challenge.data.FootballData;
 import de.exxcellent.challenge.data.WeatherData;
-
-import java.util.List;
-import java.util.function.Consumer;
 
 public class WeatherParser extends DataParser<WeatherData> {
 

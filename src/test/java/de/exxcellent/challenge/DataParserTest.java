@@ -5,11 +5,9 @@ import de.exxcellent.challenge.data.WeatherData;
 import de.exxcellent.challenge.loader.CSVLoader;
 import de.exxcellent.challenge.parser.FootballParser;
 import de.exxcellent.challenge.parser.WeatherParser;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 

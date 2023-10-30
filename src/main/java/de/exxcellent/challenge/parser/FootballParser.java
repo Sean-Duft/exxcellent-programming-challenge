@@ -1,12 +1,6 @@
 package de.exxcellent.challenge.parser;
 
 import de.exxcellent.challenge.data.FootballData;
-import de.exxcellent.challenge.data.WeatherData;
-
-import javax.xml.crypto.Data;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Collectors;
 
 public class FootballParser extends DataParser<FootballData> {
 
